@@ -27,6 +27,7 @@ use Illuminate\Support\Facades\Route;
 Route::group([
     // 'middleware' => ['auth']
 ], function () {
+    Route::get('/', [PostController::class, 'index']);
     Route::resource('posts', PostController::class);
     // ->parameters([
     //     'posts' => 'slug',
