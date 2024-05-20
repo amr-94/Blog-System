@@ -1,6 +1,6 @@
 @extends('layouts.dashboard')
 @section('content')
-    <h2 style="text-align: center" class="text mt-3 mb-5"> Edit {{  $category->name }}
+    <h2 style="text-align: center" class="text mt-3 mb-5"> Edit {{ $category->name }}
     </h2>
     <div class="container">
 

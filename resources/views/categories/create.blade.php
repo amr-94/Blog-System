@@ -3,7 +3,6 @@
     <h2 style="text-align: center" class="text mt-3 mb-5"> Create new Category
     </h2>
     <div class="container">
-
         <form action="{{ route('category.store') }}" method="post" enctype="multipart/form-data">
             @csrf
             <div class="mb-3">
